@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+.bg-soft-gradient {
+  @apply bg-gradient-to-br bg-purple-300  min-h-screen;
+}
