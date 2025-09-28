@@ -12,7 +12,7 @@ export default function Navbar() {
 
   return (
     
-    <nav className="fixed top-4 left-1/2 transform -translate-x-1/2 z-50 w-full max-w-4xl px-4">
+    <nav className="fixed top-4 left-1/2 transform -translate-x-1/2 z-50 w-full max-w-4xl px-4" >
       <div className="glass-effect border border-white/20 rounded-full px-6 py-3 shadow-2xl">
         <div className="flex items-center justify-between">
           {/* Logo + Name */}
