@@ -13,14 +13,14 @@ export default function Navbar() {
   return (
     
     <nav className="fixed top-4 left-1/2 transform -translate-x-1/2 z-50 w-full max-w-4xl px-4" >
-      <div className="glass-effect border border-white/20 rounded-full px-6 py-3 shadow-2xl">
+      <div className="glass-effect  border border-[#3C467B] rounded-full px-6 py-3 shadow-2xl">
         <div className="flex items-center justify-between">
           {/* Logo + Name */}
           <div className="flex items-center space-x-3">
             <div className="w-10 h-10 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full flex items-center justify-center">
               <Heart className="w-6 h-6 text-white" strokeWidth={2} />
             </div>
-            <span className="text-white font-bold text-lg">
+            <span className="text-[#135D66] font-bold text-lg">
               Megharshitha Physiotherapy
             </span>
           </div>
@@ -29,25 +29,25 @@ export default function Navbar() {
           <div className="hidden md:flex items-center space-x-6">
             <a
               href="#home"
-              className="text-white/80 hover:text-white transition-colors text-sm font-medium"
+              className="text-[#135D66] transition-colors text-sm font-medium"
             >
               Home
             </a>
             <a
               href="#about"
-              className="text-white/80 hover:text-white transition-colors text-sm font-medium"
+              className="text-[#135D66] transition-colors text-sm font-medium"
             >
               About
             </a>
             <a
               href="#services"
-              className="text-white/80 hover:text-white transition-colors text-sm font-medium"
+              className="text-[#135D66]  transition-colors text-sm font-medium"
             >
               Services
             </a>
             <a
               href="#testimonials"
-              className="text-white/80 hover:text-white transition-colors text-sm font-medium"
+              className="text-[#135D66] transition-colors text-sm font-medium"
             >
               Reviews
             </a>
@@ -77,28 +77,28 @@ export default function Navbar() {
             <a
               href="#home"
               onClick={() => setIsOpen(false)}
-              className="block text-white/80 hover:text-white transition-colors"
+              className="block text-[#135D66] transition-colors"
             >
               Home
             </a>
             <a
               href="#about"
               onClick={() => setIsOpen(false)}
-              className="block text-white/80 hover:text-white transition-colors"
+              className="block text-[#135D66]  transition-colors"
             >
               About
             </a>
             <a
               href="#services"
               onClick={() => setIsOpen(false)}
-              className="block text-white/80 hover:text-white transition-colors"
+              className="block text-[#135D66]  transition-colors"
             >
               Services
             </a>
             <a
               href="#testimonials"
               onClick={() => setIsOpen(false)}
-              className="block text-white/80 hover:text-white transition-colors"
+              className="block text-[#135D66]  transition-colors"
             >
               Reviews
             </a>
