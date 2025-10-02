@@ -63,7 +63,7 @@ const Testimonials = () => {
     <section id="testimonials" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl lg:text-5xl font-bold gradient-text mb-4">
+          <h2 className="text-4xl lg:text-5xl font-bold gradient-text mb-4 text-orange-600">
             Client Stories
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-purple-500 to-pink-500 mx-auto mb-6"></div>

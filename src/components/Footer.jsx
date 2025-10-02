@@ -11,8 +11,7 @@ const Footer = () => {
   }, []);
 
   const openBooking = () => {
-    setIsBookingOpen(true);
-    document.body.style.overflow = "hidden";
+    alert("Coming Soon....")
   };
 
   const closeBooking = () => {
@@ -39,7 +38,7 @@ const Footer = () => {
 
   return (
     <>
-      <footer className="bg-gray-900 text-white py-16">
+      <footer className="bg-[#96D7C6] text-white py-16">
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             {/* Brand */}
@@ -47,7 +46,7 @@ const Footer = () => {
               <div className="flex items-center space-x-3 mb-6">
                 <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full flex items-center justify-center">
                   <svg
-                    className="w-7 h-7 text-white"
+                    className="w-7 h-7 text[#fff]"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -62,12 +61,12 @@ const Footer = () => {
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold">Megharshitha physiotherapy</h3>
-                  <p className="text-gray-400">
+                  <p className="text[#fff]">
                     Dr. S Meghana, Clinical Psychologist
                   </p>
                 </div>
               </div>
-              <p className="text-gray-400 mb-6 max-w-md leading-relaxed">
+              <p className="text[#fff] mb-6 max-w-md leading-relaxed">
                 Compassionate, evidence-based therapy services to help you find
                 balance, healing, and inner peace on your wellness journey.
               </p>
@@ -104,9 +103,9 @@ const Footer = () => {
                     />
                   </svg>
                   <div>
-                    <p className="text-gray-300">789 Tranquil Lane</p>
-                    <p className="text-gray-300">Suite 400, Wellness Center</p>
-                    <p className="text-gray-300">Los Angeles, CA 90210</p>
+                    <p className="text[#fffff]">789 Tranquil Lane</p>
+                    <p className="text[#fffff]">Suite 400, Wellness Center</p>
+                    <p className="text[#fffff]">Los Angeles, CA 90210</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-3">
@@ -123,7 +122,7 @@ const Footer = () => {
                       d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                     />
                   </svg>
-                  <p className="text-gray-300">(310) 555-0199</p>
+                  <p className="text[#fffff]">(310) 555-0199</p>
                 </div>
                 <div className="flex items-center space-x-3">
                   <svg
@@ -139,7 +138,7 @@ const Footer = () => {
                       d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                     />
                   </svg>
-                  <p className="text-gray-300">elena@harmonywellness.com</p>
+                  <p className="text[#fffff]">elena@harmonywellness.com</p>
                 </div>
               </div>
             </div>
@@ -147,7 +146,7 @@ const Footer = () => {
             {/* Office Hours */}
             <div>
               <h4 className="font-semibold mb-6 text-lg">Office Hours</h4>
-              <div className="space-y-2 text-gray-300">
+              <div className="space-y-2 text[#fffff]">
                 <p>
                   <span className="font-medium">Monday - Thursday:</span> 8:00 AM -
                   8:00 PM
@@ -162,17 +161,17 @@ const Footer = () => {
                   <span className="font-medium">Sunday:</span> Closed
                 </p>
               </div>
-              <div className="mt-6 p-4 bg-red-900/20 rounded-xl border border-red-500/20">
-                <h5 className="font-semibold text-red-300 mb-2">Crisis Support</h5>
-                <p className="text-red-200 text-sm">National Suicide Prevention: 988</p>
-                <p className="text-red-200 text-sm">Crisis Text Line: Text HOME to 741741</p>
+              <div className="mt-6 p-4 bg-[#02c39a] rounded-xl border border-red-500/20">
+                <h5 className="font-semibold text[#fffff] mb-2">Crisis Support</h5>
+                <p className="text[#fffff] text-sm">National Suicide Prevention: 988</p>
+                <p className="text[#fffff] text-sm">Crisis Text Line: Text HOME to 741741</p>
               </div>
             </div>
           </div>
 
           {/* Bottom */}
           <div className="border-t border-gray-800 pt-8 text-center">
-            <p className="text-gray-400">
+            <p className="text[#fffff]">
               &copy; 2024 Harmony Wellness Psychology Practice. All rights
               reserved. | Privacy Policy | Terms of Service
             </p>

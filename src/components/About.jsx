@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = ({ openBooking }) => {
   return (
-    <section id="about" className="py-20 bg-[#FFF5E1] relative">
+    <section id="about" className="py-20 bg-[#fff] relative">
       <div className="max-w-7xl mx-auto px-4">
         {/* Heading */}
         <div className="text-center mb-16">

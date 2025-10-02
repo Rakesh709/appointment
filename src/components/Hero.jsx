@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="wave-bg min-h-screen flex items-center relative overflow-hidden pt-20 bg-[#96D7C6]"
+      className="wave-bg min-h-screen flex items-center relative overflow-hidden pt-20 bg-[#96D7C6] text-[#3D5A80]"
     >
       {/* Floating Elements */}
       <div className="absolute inset-0 overflow-hidden">

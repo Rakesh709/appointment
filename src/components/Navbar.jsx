@@ -7,7 +7,7 @@ export default function Navbar() {
   const toggleMobileNav = () => setIsOpen(!isOpen);
   const openBooking = () => {
     // later you can hook this to a modal or booking page
-    alert("Booking form/modal opens here!");
+    alert("Coming Soon...");
   };
 
   return (
